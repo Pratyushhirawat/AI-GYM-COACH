@@ -2,8 +2,7 @@
 __pycache__/
 *.pyc
 
-
-AI_GYM_APP/data.db
+data.db
 
 .streamlit/
 
