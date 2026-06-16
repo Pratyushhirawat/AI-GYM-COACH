@@ -1,0 +1,12 @@
+.env
+__pycache__/
+*.pyc
+
+
+AI_GYM_APP/data.db
+
+.streamlit/
+
+venv/
+
+.log
