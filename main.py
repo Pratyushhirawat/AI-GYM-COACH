@@ -54,7 +54,11 @@ def main():
     workout_started = st.session_state.get('workout_started', False)
     
     with st.sidebar:
-        st.title('🏋️‍♂️ AI Fitness Coach')
+        col1, col2 = st.sidebar.columns([1, 4])
+        with col1:
+            st.image("images/favicon.png", width=35)
+        with col2:
+            st.markdown("### AI Fitness Coach")
 
         if st.session_state.username:
             st.caption(f"👤 Login as {st.session_state.username}")
